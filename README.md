@@ -6,10 +6,10 @@ The site consists of `index.html` (home) and `talks.html` (past talks), each inc
 
 ## Publish with GitHub Pages
 
-1. Create a public repository named `yylujie2117-lab.github.io` under the account `yylujie2117-lab`.
+1. Create a public repository named `yutingliumath.github.io` under the account `yutingliumath`.
 2. Upload `index.html`, `talks.html`, and `.nojekyll` to the root of its `main` branch. Do not upload the enclosing folder or the ZIP archive itself.
 3. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then **main** and **/ (root)**, and save.
-4. Once GitHub reports a successful deployment, the site will be available at `https://yylujie2117-lab.github.io/`.
+4. Once GitHub reports a successful deployment, the site will be available at `https://yutingliumath.github.io/`.
 
 If publishing under a different GitHub account, substitute that username in both the repository name and the site address. No changes to `index.html` are necessary.
 
@@ -41,7 +41,7 @@ Supervisor's institutional profile: https://profiles.imperial.ac.uk/p.cascini
 
 ## 中文发布说明
 
-1. 在 GitHub 新建公开仓库，仓库名称填写 `yylujie2117-lab.github.io`。
+1. 在 GitHub 新建公开仓库，仓库名称填写 `yutingliumath.github.io`。
 2. 将 `index.html` 和 `talks.html` 上传到仓库最外层；不要把 ZIP 文件直接上传，也不要再套一层文件夹。`.nojekyll` 是可选的静态站点标记文件，若系统隐藏了它，上传两个 HTML 文件也可按 GitHub Pages 的默认流程发布。
 3. 在仓库的 **Settings → Pages** 中，将 Source 设为 **Deploy from a branch**，Branch 设为 **main**，文件夹设为 **/ (root)**，然后保存。
 4. 等待 GitHub 显示部署成功，再打开主页地址。
