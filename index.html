@@ -30,8 +30,7 @@
     .skip-link { position: absolute; top: -80px; left: 20px; z-index: 10; padding: 8px 14px; background: #fff; }
     .skip-link:focus { top: 12px; }
     .page { max-width: 1060px; margin: 0 auto; padding: 0 46px; }
-    .topbar { min-height: 85px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); }
-    .wordmark { color: var(--muted); font-size: 13px; letter-spacing: .065em; }
+    .topbar { min-height: 85px; display: flex; align-items: center; justify-content: flex-end; gap: 24px; border-bottom: 1px solid var(--line); }
     nav { display: flex; gap: 30px; }
     nav a { padding: 8px 0; color: var(--muted); text-decoration: none; font-size: 14px; }
     nav a:hover { color: var(--link); text-decoration: underline; }
@@ -75,7 +74,6 @@
     @media (max-width: 640px) {
       .page { padding: 0 23px; }
       .topbar { min-height: 70px; gap: 4px 16px; flex-wrap: wrap; padding: 14px 0 10px; }
-      .wordmark { font-size: 11px; letter-spacing: .035em; }
       nav { gap: 20px; }
       nav a { font-size: 13px; }
       .layout { display: block; padding: 37px 0 38px; }
@@ -102,12 +100,11 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="page">
     <header class="topbar">
-      <span class="wordmark">MATHEMATICS</span>
       <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#papers">Papers</a>
+        <a href="index.html" aria-current="page">About</a>
+        <a href="papers.html">Papers</a>
         <a href="talks.html">Talks</a>
-        <a href="#contact">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
@@ -129,37 +126,6 @@
           <h2 id="about-heading">About</h2>
           <p>I am a PhD student in the <a href="https://www.imperial.ac.uk/mathematics/">Department of Mathematics</a> at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, supervised by <a href="https://profiles.imperial.ac.uk/p.cascini">Paolo Cascini</a>.</p>
           <p class="research-note">My research interests lie in algebraic geometry, with a particular focus on foliations, their integrability, and their birational geometry.</p>
-        </section>
-
-        <section id="papers" aria-labelledby="papers-heading">
-          <h2 id="papers-heading">Preprints</h2>
-          <ol class="papers">
-            <li class="paper">
-              <article aria-labelledby="holonomy-title">
-                <h3 id="holonomy-title"><a href="https://arxiv.org/abs/2608.26813">Holonomy and Integrability of <i>p</i>-Closed Foliations</a></h3>
-                <p class="paper-meta">Yuting Liu · 2026<br><em>Submitted to a journal.</em></p>
-                <p class="paper-links">
-                  <a href="https://arxiv.org/abs/2608.26813">arXiv:2608.26813</a>
-                  <a href="https://arxiv.org/pdf/2608.26813" aria-label="PDF of Holonomy and Integrability of p-Closed Foliations">PDF</a>
-                </p>
-              </article>
-            </li>
-            <li class="paper">
-              <article aria-labelledby="positivity-title">
-                <h3 id="positivity-title"><a href="https://arxiv.org/abs/2310.19315">Positivity of exterior products of tangent bundles and their subsheaves</a></h3>
-                <p class="paper-meta">Yuting Liu · 2023<br><em>Submitted to a journal.</em></p>
-                <p class="paper-links">
-                  <a href="https://arxiv.org/abs/2310.19315">arXiv:2310.19315</a>
-                  <a href="https://arxiv.org/pdf/2310.19315" aria-label="PDF of Positivity of exterior products of tangent bundles and their subsheaves">PDF</a>
-                </p>
-              </article>
-            </li>
-          </ol>
-        </section>
-
-        <section class="contact" id="contact" aria-labelledby="contact-heading">
-          <h2 id="contact-heading">Contact</h2>
-          <p>Email: <a href="mailto:yuting.liu24@imperial.ac.uk">yuting.liu24@imperial.ac.uk</a></p>
         </section>
       </main>
     </div>

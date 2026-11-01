@@ -30,8 +30,7 @@
     .skip-link { position: absolute; top: -80px; left: 20px; z-index: 10; padding: 8px 14px; background: #fff; }
     .skip-link:focus { top: 12px; }
     .page { max-width: 1060px; margin: 0 auto; padding: 0 46px; }
-    .topbar { min-height: 85px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); }
-    .wordmark { color: var(--muted); font-size: 13px; letter-spacing: .065em; }
+    .topbar { min-height: 85px; display: flex; align-items: center; justify-content: flex-end; gap: 24px; border-bottom: 1px solid var(--line); }
     nav { display: flex; gap: 30px; }
     nav a { padding: 8px 0; color: var(--muted); text-decoration: none; font-size: 14px; }
     nav a:hover { color: var(--link); text-decoration: underline; }
@@ -75,7 +74,6 @@
     @media (max-width: 640px) {
       .page { padding: 0 23px; }
       .topbar { min-height: 70px; gap: 4px 16px; flex-wrap: wrap; padding: 14px 0 10px; }
-      .wordmark { font-size: 11px; letter-spacing: .035em; }
       nav { gap: 20px; }
       nav a { font-size: 13px; }
       .layout { display: block; padding: 37px 0 38px; }
@@ -97,7 +95,6 @@
     .talk-date { color: var(--muted); font-size: 13px; padding-top: 3px; line-height: 1.65; }
     .talk h3 { margin-bottom: 7px; }
     .talk-venue { margin: 0 0 8px; color: var(--muted); font-size: 14px; line-height: 1.65; }
-    .talk-title { margin: 0 0 8px; font-size: 14px; }
     .talk-link { font-size: 13px; }
     @media (max-width: 800px) {
       .talk { grid-template-columns: 1fr; gap: 8px; }
@@ -116,12 +113,11 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="page">
     <header class="topbar">
-      <span class="wordmark">MATHEMATICS</span>
       <nav aria-label="Main navigation">
-        <a href="index.html#about">About</a>
-        <a href="index.html#papers">Papers</a>
+        <a href="index.html">About</a>
+        <a href="papers.html">Papers</a>
         <a href="talks.html" aria-current="page">Talks</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
@@ -157,7 +153,6 @@
               <article aria-labelledby="imperial-talk-title">
                 <h3 id="imperial-talk-title">Junior Geometry Seminar</h3>
                 <p class="talk-venue">Imperial College London<br>London, United Kingdom</p>
-                <p class="talk-title"><em>Linear Series on K3 Surfaces</em></p>
                 <a class="talk-link" href="https://www.imperial.ac.uk/events/210540/junior-geometry-seminar-yuting-liu/">Seminar announcement</a>
               </article>
             </li>
