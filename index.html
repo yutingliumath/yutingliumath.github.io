@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuting Liu is a PhD student in mathematics at Imperial College London, working on foliations, their integrability, and their birational geometry.">
+  <meta name="author" content="Yuting Liu">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yuting Liu | Mathematics">
+  <meta property="og:description" content="PhD student at Imperial College London. Research in foliations, integrability, and birational geometry.">
+  <title>Yuting Liu | Mathematics</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23283e51'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='32' fill='white'%3EYL%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #252b30;
+      --muted: #5c646c;
+      --link: #245779;
+      --line: #e0e4e7;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 28px; }
+    body { margin: 0; background: #fff; color: var(--ink); font: 16px/1.75 var(--sans); }
+    a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    a:hover { color: #102f44; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; border-radius: 1px; }
+    .skip-link { position: absolute; top: -80px; left: 20px; z-index: 10; padding: 8px 14px; background: #fff; }
+    .skip-link:focus { top: 12px; }
+    .page { max-width: 1060px; margin: 0 auto; padding: 0 46px; }
+    .topbar { min-height: 85px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); }
+    .wordmark { color: var(--muted); font-size: 13px; letter-spacing: .065em; }
+    nav { display: flex; gap: 30px; }
+    nav a { padding: 8px 0; color: var(--muted); text-decoration: none; font-size: 14px; }
+    nav a:hover { color: var(--link); text-decoration: underline; }
+    nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; text-decoration-color: #8b9eaa; }
+    h1 a { color: inherit; text-decoration: none; }
+    h1 a:hover { color: var(--link); }
+    .layout { display: grid; grid-template-columns: 244px minmax(0, 1fr); column-gap: 58px; padding: 58px 0 56px; }
+    .identity { padding-top: 1px; }
+    h1 { margin: 0 0 15px; font: normal 43px/1.15 var(--serif); letter-spacing: -.035em; }
+    .role { margin: 0 0 5px; font-size: 16px; }
+    .affiliation { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
+    .affiliation a { color: inherit; text-decoration: none; }
+    .affiliation a:hover { color: var(--link); text-decoration: underline; }
+    .identity-rule { width: 34px; height: 2px; margin: 27px 0 22px; background: #8b9eaa; }
+    .identity-note { margin: 0; color: var(--muted); font-size: 14px; }
+    .identity-email { display: inline-block; margin-top: 14px; font-size: 13px; overflow-wrap: anywhere; }
+    h2 { margin: 0 0 18px; font: normal 27px/1.3 var(--serif); letter-spacing: -.02em; }
+    p { margin: 0 0 17px; }
+    .research-note { margin-bottom: 0; }
+    section + section { margin-top: 37px; padding-top: 29px; border-top: 1px solid var(--line); }
+    .papers { margin: 0; padding: 0; list-style: none; counter-reset: papers; }
+    .paper { position: relative; padding-left: 30px; counter-increment: papers; }
+    .paper::before { content: counter(papers) "."; position: absolute; left: 0; top: 1px; color: #747e86; font-size: 14px; }
+    .paper + .paper { margin-top: 28px; }
+    h3 { margin: 0 0 7px; font: 600 16px/1.6 var(--sans); }
+    h3 a { color: var(--ink); text-decoration: none; }
+    h3 a:hover { color: var(--link); text-decoration: underline; }
+    .paper-meta { margin: 0 0 8px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .paper-links { display: flex; flex-wrap: wrap; align-items: center; column-gap: 18px; row-gap: 3px; margin: 0; font-size: 13px; }
+    .paper-links a { display: inline-block; padding: 2px 0; }
+    .contact p { margin-bottom: 0; }
+    .contact a { overflow-wrap: anywhere; }
+    footer { display: flex; justify-content: space-between; gap: 16px; padding: 20px 0 28px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+    footer p { margin: 0; }
+    footer a { color: var(--muted); }
+    @media (max-width: 800px) {
+      .page { padding: 0 28px; }
+      .layout { grid-template-columns: 205px minmax(0, 1fr); column-gap: 32px; }
+      h1 { font-size: 38px; }
+    }
+    @media (max-width: 640px) {
+      .page { padding: 0 23px; }
+      .topbar { min-height: 70px; gap: 4px 16px; flex-wrap: wrap; padding: 14px 0 10px; }
+      .wordmark { font-size: 11px; letter-spacing: .035em; }
+      nav { gap: 20px; }
+      nav a { font-size: 13px; }
+      .layout { display: block; padding: 37px 0 38px; }
+      .identity { margin-bottom: 33px; padding-bottom: 30px; border-bottom: 1px solid var(--line); }
+      h1 { font-size: 42px; margin-bottom: 12px; }
+      .identity-rule { margin: 20px 0 16px; }
+      .identity-email { margin-top: 8px; font-size: 14px; }
+      h2 { font-size: 25px; }
+      .paper { padding-left: 25px; }
+      h3 { font-size: 16px; }
+      section + section { margin-top: 30px; padding-top: 25px; }
+      footer { flex-wrap: wrap; gap: 4px 18px; }
+    }
+    @media print {
+      .page { max-width: none; padding: 0; }
+      .topbar, .skip-link { display: none; }
+      .layout { padding: 0 0 20px; column-gap: 35px; }
+      a { color: inherit; text-decoration: none; }
+      section, .paper { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="topbar">
+      <span class="wordmark">MATHEMATICS</span>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#papers">Papers</a>
+        <a href="talks.html">Talks</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="layout">
+      <aside class="identity" aria-label="Profile">
+        <h1>Yuting Liu</h1>
+        <p class="role">PhD student</p>
+        <p class="affiliation">
+          <a href="https://www.imperial.ac.uk/mathematics/">Department of Mathematics</a><br>
+          <a href="https://www.imperial.ac.uk/">Imperial College London</a>
+        </p>
+        <div class="identity-rule" aria-hidden="true"></div>
+        <p class="identity-note">Algebraic geometry<br>Foliations</p>
+        <a class="identity-email" href="mailto:yuting.liu24@imperial.ac.uk">yuting.liu24@imperial.ac.uk</a>
+      </aside>
+
+      <main id="main">
+        <section id="about" aria-labelledby="about-heading">
+          <h2 id="about-heading">About</h2>
+          <p>I am a PhD student in the <a href="https://www.imperial.ac.uk/mathematics/">Department of Mathematics</a> at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, supervised by <a href="https://profiles.imperial.ac.uk/p.cascini">Paolo Cascini</a>.</p>
+          <p class="research-note">My research interests lie in algebraic geometry, with a particular focus on foliations, their integrability, and their birational geometry.</p>
+        </section>
+
+        <section id="papers" aria-labelledby="papers-heading">
+          <h2 id="papers-heading">Preprints</h2>
+          <ol class="papers">
+            <li class="paper">
+              <article aria-labelledby="holonomy-title">
+                <h3 id="holonomy-title"><a href="https://arxiv.org/abs/2608.26813">Holonomy and Integrability of <i>p</i>-Closed Foliations</a></h3>
+                <p class="paper-meta">Yuting Liu · 2026<br><em>Submitted to a journal.</em></p>
+                <p class="paper-links">
+                  <a href="https://arxiv.org/abs/2608.26813">arXiv:2608.26813</a>
+                  <a href="https://arxiv.org/pdf/2608.26813" aria-label="PDF of Holonomy and Integrability of p-Closed Foliations">PDF</a>
+                </p>
+              </article>
+            </li>
+            <li class="paper">
+              <article aria-labelledby="positivity-title">
+                <h3 id="positivity-title"><a href="https://arxiv.org/abs/2310.19315">Positivity of exterior products of tangent bundles and their subsheaves</a></h3>
+                <p class="paper-meta">Yuting Liu · 2023<br><em>Submitted to a journal.</em></p>
+                <p class="paper-links">
+                  <a href="https://arxiv.org/abs/2310.19315">arXiv:2310.19315</a>
+                  <a href="https://arxiv.org/pdf/2310.19315" aria-label="PDF of Positivity of exterior products of tangent bundles and their subsheaves">PDF</a>
+                </p>
+              </article>
+            </li>
+          </ol>
+        </section>
+
+        <section class="contact" id="contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact</h2>
+          <p>Email: <a href="mailto:yuting.liu24@imperial.ac.uk">yuting.liu24@imperial.ac.uk</a></p>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>Yuting Liu · Imperial College London</p>
+      <p>Last updated: November 2026</p>
+    </footer>
+  </div>
+</body>
+</html>
